@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Coaching Center</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+<body>
+    <div class="form-section">
+        <h1>Admission Computer Coaching Center</h1>
+        <form id="admissionForm" onsubmit="showThankYouMessage(event)">
+            <label>Enter Your First name</label>
+            <input type="text" name="firstname" placeholder="First Name" required><br><br>
+
+            <label>Enter Your Last name</label>
+            <input type="text" name="lastname" placeholder="Last Name" required><br><br>
+
+            <label>Guardians First name</label>
+            <input type="text" name="guardianfirstname" placeholder="First Name" required><br><br>
+
+            <label>Guardians Last name</label>
+            <input type="text" name="guardianlastname" placeholder="Last Name" required><br><br>
+
+            <label>Your Class</label>
+            <select name="class" required>
+                <option value="">Select Class</option>
+                <option value="5">Class 5</option>
+                <option value="6">Class 6</option>
+                <option value="7">Class 7</option>
+                <option value="8">Class 8</option>
+                <option value="9">Class 9</option>
+                <option value="10">Class 10</option>
+                <option value="11">Class 11</option>
+                <option value="12">Class 12</option>
+                <option value="1st year">College 1st year</option>
+                <option value="2nd year">College 2nd year </option>
+                <option value="3rd year">College 3rd year </option>
+                <!-- Add other classes as needed -->
+            </select><br><br>
+
+            <label>Male</label>
+            <input type="radio" name="gender" value="male" required>
+            <label>Female</label>
+            <input type="radio" name="gender" value="female" required><br><br>
+
+            <label>Write Your hobbies</label><br>
+            <textarea name="hobbies" rows="3" cols="20" required></textarea><br><br>
+
+            <label>Write Your Address</label><br>
+            <textarea name="address" rows="4" cols="30" required></textarea><br><br>
+
+            <label>Write Your Pincode</label>
+            <input type="text" name="pincode" required><br><br>
+
+            <label>Your City</label>
+            <select name="city" required>
+                <option value="">Select your City</option>
+                <option value="Asansol">Asansol</option>
+                <option value="Bardhaman">Bardhaman</option>
+                <option value="Cooch Behar">Cooch Behar</option>
+                <option value="Darjeeling">Darjeeling</option>
+                <option value="English Bazar">English Bazar</option>
+                <option value="Farakka">Farakka</option>
+                <option value="Gangtok">Gangtok</option>
+                <option value="Haldia">Haldia</option>
+                <option value="Islampur">Islampur</option>
+                <option value="Jalpaiguri">Jalpaiguri</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Malda">Malda</option>
+                <option value="Nabadwip">Nabadwip</option>
+                <option value="Howrah">Howrah</option>
+                <option value="Purulia">Purulia</option>
+                <option value="Raiganj">Raiganj</option>
+                <option value="Siliguri">Siliguri</option>
+                <option value="Tamluk">Tamluk</option>
+                <option value="Uttar Dinajpur">Uttar Dinajpur</option>
+                <option value="Vidyasagar">Vidyasagar</option>
+                <option value="West Midnapore">West Midnapore</option>
+                <!-- Add other cities as needed -->
+            </select><br><br>
+
+            <label>How Do you know our website name</label>
+            <select name="website" required>
+                <option value="">Select Option</option>
+                <option value="Social Media">Social Media</option>
+                <option value="Online Advertising">Online Advertising</option>
+                <option value="Website">Our Website</option>
+                <option value="Friends">Friends</option>
+                <!-- Add other options as needed -->
+            </select><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <hr>
+    <div class="thank-you-section">
+        <h1>Thanks For Submitting this Form....</h1>
+    </div>
+    <footer>
+        copyright &copy;&nbsp;2024 Ankush Das.&nbsp;All rights reserved
+    </footer>
+</body>
+
+</html>
